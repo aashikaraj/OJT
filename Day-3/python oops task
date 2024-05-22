@@ -1,0 +1,71 @@
+que 1 : Create a Bus child class that inherits from the Vehicle class. The default fare charge of any vehicle is seating capacity * 100. If Vehicle is Bus instance, we need to add an extra 10% on full fare as a maintenance charge. So total fare for bus instance will become the final amount = total fare + 10% of the total fare.
+Answer: class Vehicle:
+    def _init_(self, seating_capacity):
+        self.seating_capacity = seating_capacity
+
+    def fare(self):
+        return self.seating_capacity * 100
+
+class Bus(Vehicle):
+    def fare(self):
+        total_fare = super().fare()
+        maintenance_charge = total_fare * 0.10
+        return total_fare + maintenance_charge
+
+# Example usage:
+vehicle = Vehicle(50)
+print(f"Vehicle fare: {vehicle.fare()}")
+
+bus = Bus(50)
+print(f"Bus fare: {bus.fare()}")
+
+que 2 : Create a class 'Shape' with a method 'area()'. Then create two subclasses, 'Rectangle' and 'Circle', which override the 'area()' method to calculate the area of their respective shapes.
+Answer: import math
+
+class Shape:
+    def area(self):
+        pass
+
+class Rectangle(Shape):
+    def _init_(self, width, height):
+        self.width = width
+        self.height = height
+
+    def area(self):
+        return self.width * self.height
+
+class Circle(Shape):
+    def _init_(self, radius):
+        self.radius = radius
+
+    def area(self):
+        return math.pi * self.radius ** 2
+
+# Example usage:
+rectangle = Rectangle(4, 5)
+print(f"Rectangle area: {rectangle.area()}")
+
+circle = Circle(3)
+print(f"Circle area: {circle.area()}")
+
+que 3 : Create a class 'ElectricCar' which inherits from the 'Car' class. Add an additional attribute 'battery_capacity' and a method to display the battery information.
+Answer: class Car:
+    def _init_(self, make, model, year):
+        self.make = make
+        self.model = model
+        self.year = year
+
+class ElectricCar(Car):
+    def _init_(self, make, model, year, battery_capacity):
+        super()._init_(make, model, year)
+        self.battery_capacity = battery_capacity
+
+    def display_battery_info(self):
+        return f"Battery capacity: {self.battery_capacity} kWh"
+
+# Example usage:
+car = Car("Toyota", "Corolla", 2020)
+print(f"Car: {car.make} {car.model}, Year: {car.year}")
+
+electric_car = ElectricCar("Tesla", "Model S", 2022, 100)
+print(f"Electric Car: {electric_car.make} {electric_car.model}, Year: {electric_car.year}, {electric_car.display_battery_info()}")
