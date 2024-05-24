@@ -1,0 +1,82 @@
+Question: Generate a basic webpage or an environment using Blackbox AI.
+Answer: <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Environment Website</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    section {
+      margin-bottom: 30px;
+    }
+
+    h1, h2 {
+      color: #333;
+    }
+
+    h2 {
+      margin-bottom: 10px;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 20px;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Our Environment Website</h1>
+  </header>
+  <main>
+    <section id="intro">
+      <h2>Introduction</h2>
+      <p>Learn about the importance of the environment and how you can help protect it.</p>
+    </section>
+    <section id="tips">
+      <h2>Environmental Tips</h2>
+      <ul>
+        <li>Reduce, reuse, and recycle</li>
+        <li>Conserve water</li>
+        <li>Choose sustainable products</li>
+      </ul>
+    </section>
+    <section id="resources">
+      <h2>Resources</h2>
+      <p>Find helpful resources to learn more about the environment and how to make a difference.</p>
+    </section>
+  </main>
+  <footer>
+    <p>Copyright © 2024 Environment Website</p>
+  </footer>
+</body>
+</html>
