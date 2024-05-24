@@ -1,3 +1,5 @@
+Question:write a python programm to generate an animation of an elastic ball dropping from a height and after it touches the ground it is bouncing.
+Answer: 
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
