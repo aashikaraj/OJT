@@ -1,0 +1,9 @@
+Name,Age,Place,Salary,EmptyColumn
+Kingini,20,Kolkata,4500,NaN
+Tuttu,42,Mumbai,600,NaN
+Chinnu,45,Bihar,4200,NaN
+Dhamu,65,Delhi,4300,NaN
+Ikka,35,Kolkata,2500,NaN
+Angu,85,Mumbai,7500,NaN
+Kuttappi,24,Delhi,2600,NaN
+NaN,NaN,NaN,NaN,NaN
