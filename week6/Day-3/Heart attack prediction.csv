@@ -1,0 +1,6 @@
+Age,Gender,Cholestrol ,BP,Smoking,Diabetes ,Exercise,Heart_attack
+55,Male,220,140,Yes,No,Yes,1
+60,Female,180,130,No,No,No,1
+45,Male,190,110,Yes,No,Yes,0
+50,Female,200,120,No,No,Yes,0
+65,Male,230,150,Yes,Yes,No,1
