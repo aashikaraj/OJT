@@ -1,0 +1,14 @@
+Information gain provides a measure to describe how much information a feature provides,or in other terms, how much entropy is removed
+
+IG(A) = H(C) - H(C|A)
+
+where IG(A) is the information gain, H(C) is the entropy of the target variable, 
+and H(C|A) is the conditional entropy of the target variable given the attribute A. This equation helps identify the most informative attribute to split the node, leading to a more accurate decision tree.
+
+To find the value of error in a dataset, you can use statistical methods such as mean absolute error (MAE), mean squared error (MSE), and root mean squared error (RMSE).
+ These measures calculate the average difference between predicted and actual values
+
+PV and AV is No = Truly Negative
+PV IS YES AND AV IS NO = False Positive
+AV is Yes and PV is No = False Negative
+AV is yes and PV is Yes = Truly positive
